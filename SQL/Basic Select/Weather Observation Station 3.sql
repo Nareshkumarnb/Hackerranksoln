@@ -1,0 +1,1 @@
+select CITY from STATION where MOD(ID,2)=0 group by CITY;
