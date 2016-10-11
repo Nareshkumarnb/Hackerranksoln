@@ -1,0 +1,1 @@
+SELECT salary * months as maxsal, COUNT(EMPLOYEE_ID) from employee GROUP BY maxsal order BY MAXSAL DESC limit 1;
