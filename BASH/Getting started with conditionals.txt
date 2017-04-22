@@ -1,0 +1,8 @@
+read a
+if [ "$a" = "y" -o "$a" = "Y" ] 
+then
+echo "YES"
+else
+echo "NO"
+fi
+
